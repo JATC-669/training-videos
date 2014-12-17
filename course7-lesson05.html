@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JATC 669: Videos - Course 7: Lesson 1</title>
+    <title>JATC 669: Videos - Course 7: Lesson 5</title>
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/modernizr.js"></script>
   </head>
@@ -14,31 +14,31 @@
       
       <!-- Video -->
       <main class="small-12 medium-8 large-8 columns">
-        <!-- first try HTML5 playback: if serving as XML, expand `controls` to `controls="controls"` and autoplay likewise -->
-        <!-- warning: playback does not work on iOS3 if you include the poster attribute! fixed in iOS4.0 -->
-        <video controls>
-          <!-- MP4 must be first for iPad! -->
-          <source src="assets/0701.mp4" type="video/mp4" /><!-- Safari / iOS video    -->
-          <source src="assets/0701.oggtheora.ogv" type="video/ogg" /><!-- Firefox / Opera / Chrome10 -->
-          <!-- fallback to Flash: -->
-          <object type="application/x-shockwave-flash" data="__FLASH__.SWF">
-            <!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
-            <param name="movie" value="__FLASH__.SWF" />
-            <param name="flashvars" value="controlbar=over&amp;image=__POSTER__.JPG&amp;assets/0701.mp4" />
-            <!-- fallback image. note the title field below, put the title of the video there -->
-            <img src="__VIDEO__.JPG" width="640" height="360" alt="__TITLE__"
-                 title="No video playback capabilities, please download the video below" />
-          </object>
-        </video>
-        <!-- you *must* offer a download link as they may be able to play the file locally. customise this bit all you want -->
-        <p> <strong>Download Video:</strong>
-          Closed Format:  <a href="__VIDEO__.MP4">"MP4"</a>
-          Open Format:  <a href="__VIDEO__.OGV">"Ogg"</a>
-        </p>
+        
+        <!-- Start EasyHtml5Video.com BODY section -->
+<!--<style type="text/css">.easyhtml5video span{display:none}</style>-->
+<div class="easyhtml5video" style="position:relative;max-width:674px;">
+<video controls="controls"  poster="index.files/html5video/0701.jpg" style="width:100%" title="674">
+<source src="index.files/html5video/0701.m4v" type="video/mp4" />
+<source src="index.files/html5video/0701.webm" type="video/webm" />
+<source src="index.files/html5video/0701.ogv" type="video/ogg" />
+<object type="application/x-shockwave-flash" data="index.files/html5video/flashfox.swf" width="674" height="448" style="position:relative;">
+<param name="movie" value="index.files/html5video/flashfox.swf" />
+<param name="allowFullScreen" value="true" />
+<param name="flashVars" value="autoplay=false&amp;controls=true&amp;fullScreenEnabled=true&amp;posterOnEnd=true&amp;loop=false&amp;poster=index.files/html5video/0701.jpg&amp;src=0701.m4v" />
+ <embed src="index.files/html5video/flashfox.swf" width="674" height="448" style="position:relative;"  flashVars="autoplay=false&amp;controls=true&amp;fullScreenEnabled=true&amp;posterOnEnd=true&amp;loop=false&amp;poster=index.files/html5video/0701.jpg&amp;src=0701.m4v"  allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
+<img alt="0701" src="index.files/html5video/0701.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
+</object>
+</video>
+
+<!--<span><a href="http://easyhtml5video.com">mp4 to webm</a> by EasyHtml5Video.com v2.8</span>-->
+</div>
+<!--<script src="index.files/html5video/html5ext.js" type="text/javascript"></script>-->
+<!-- End EasyHtml5Video.com BODY section -->
 
         <div class="panel">
         <h1 class="course-title">Course 7: Math for the Sprinkler Fitter</h1>
-        <h2 class="video-title">Lesson 1:<br>Addition, Subtraction, Multiplication, and Division of Whole Numbers</h2>
+        <h2 class="video-title">Lesson 5:<br>The Metric System</h2>
       </div>
       </main>
       
@@ -48,10 +48,10 @@
         <h3>Course Videos</h3>
         <div class="row nav-buttons">
           <div class="small-6 columns prev-button">
-            <a href="#"><button class="expand disabled">Prev</button></a>
+            <a href="course7-lesson04.html"><button class="expand">Prev</button></a>
           </div>
           <div class="small-6 columns next-button">
-            <a href=""><button class="expand">Next</button></a>
+            <a href="course7-lesson06.html"><button class="expand">Next</button></a>
           </div>
         </div>
 
@@ -61,42 +61,42 @@
         <ul class="side-nav">
 
           <!-- Lesson Video Link -->
-          <li class="active"><a href="course7-lesson1.html"><strong>Lesson 1</strong><br><small>Addition, Subtraction, Multiplication, and Division of Whole Numbers</small></a></li>
+          <li><a href="course7-lesson1.html"><strong>Lesson 1</strong><br><small>Addition, Subtraction, Multiplication, and Division of Whole Numbers</small></a></li>
           <li class="divider"></li>
           <!-- End Lesson Video Link -->
 
           <!-- Lesson Video Link -->
-          <li><a href="course7-lesson2.html"><strong>Lesson 2</strong><br><small>Calculator Use and Applications</small></a></li>
+          <li><a href="course7-lesson02.html"><strong>Lesson 2</strong><br><small>Calculator Use and Applications</small></a></li>
           <li class="divider"></li>
           <!-- End Lesson Video Link -->
 
           <!-- Lesson Video Link -->
-          <li><a href="course7-lesson3.html"><strong>Lesson 3</strong><br><small>Working with Fractions</small></a></li>
+          <li><a href="course7-lesson03.html"><strong>Lesson 3</strong><br><small>Working with Fractions</small></a></li>
           <li class="divider"></li>
           <!-- End Lesson Video Link -->
 
           <!-- Lesson Video Link -->
-          <li><a href="course7-lesson4.html"><strong>Lesson 4</strong><br><small>Working with Decimals</small></a></li>
+          <li><a href="course7-lesson04.html"><strong>Lesson 4</strong><br><small>Working with Decimals</small></a></li>
           <li class="divider"></li>
           <!-- End Lesson Video Link -->
 
           <!-- Lesson Video Link -->
-          <li><a href="course7-lesson5.html"><strong>Lesson 5</strong><br><small>The Metric System</small></a></li>
+          <li class="active"><a href="course7-lesson05.html"><strong>Lesson 5</strong><br><small>The Metric System</small></a></li>
           <li class="divider"></li>
           <!-- End Lesson Video Link -->
 
           <!-- Lesson Video Link -->
-          <li><a href="course7-lesson6.html"><strong>Lesson 6</strong><br><small>Converting Decimals and Fractions</small></a></li>
+          <li><a href="course7-lesson06.html"><strong>Lesson 6</strong><br><small>Converting Decimals and Fractions</small></a></li>
           <li></li>
           <!-- End Lesson Video Link -->
 
           <!-- Lesson Video Link -->
-          <li><a href="course7-lesson7.html"><strong>Lesson 7</strong><br><small>Calculations with Geometric Figures</small></a></li>
+          <li><a href="course7-lesson07.html"><strong>Lesson 7</strong><br><small>Calculations with Geometric Figures</small></a></li>
           <li class="divider"></li>
           <!-- End Lesson Video Link -->
 
           <!-- Lesson Video Link -->
-          <li><a href="course7-lesson9.html"><strong>Lesson 9</strong><br><small>Piping Measurements</small></a></li>
+          <li><a href="course7-lesson09.html"><strong>Lesson 9</strong><br><small>Piping Measurements</small></a></li>
           <li class="divider"></li>
           <!-- End Lesson Video Link -->
 
