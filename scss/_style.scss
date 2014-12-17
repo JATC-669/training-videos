@@ -1,0 +1,115 @@
+.jatc-videos
+{
+	h1, h2, h3, h4, h5, h6, p, ul, li
+	{
+		font-family: arial,helvetica;
+		color: #333;
+	}
+
+	video
+	{
+		margin-bottom: 1em;
+		background-color: #333;
+		width: 100%;
+		height: auto;
+
+		object
+		{
+			width: 100%;
+			height: auto;
+		}
+
+		img
+		{
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.course-title
+	{
+		color: #444;
+		font-weight: bold;
+		font-size: 1.25em;
+		line-height: 1.3em;
+		text-transform: uppercase;
+	}
+
+	.video-title
+	{
+		color: #555;
+		font-size: 1.0em;
+		line-height: 1.3em;
+	}
+
+	.nav-buttons
+	{
+		button
+		{
+			margin-bottom: 0;
+		}
+
+		.prev-button
+		{
+			padding-right: .35em;
+		}
+
+		.next-button
+		{
+			padding-left: .35em;
+		}
+	}
+
+	.side-nav .active
+	{
+		background-color: #eee;
+	}
+
+	.side-nav strong
+	{
+		color: #333;
+
+	}
+
+	.side-nav a small
+	{
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+	.side-nav .divider
+	{
+		border-bottom: 1px solid #eee;
+	}
+}
+
+/* Medium screens */
+@media only screen and (min-width: 40.063em) 
+{
+
+.jatc-videos
+{	
+
+	main
+	{
+		position: fixed;
+		max-width: 667px;
+	}
+
+	.course-title
+	{
+		color: #444;
+		font-weight: bold;
+		font-size: 1.5em;
+		line-height: 1.3em;
+		text-transform: uppercase;
+	}
+
+	.video-title
+	{
+		color: #555;
+		font-size: 1.25em;
+		line-height: 1.3em;
+	}
+}
+} /* min-width 641px, medium screens */
